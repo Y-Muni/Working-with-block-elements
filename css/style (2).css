@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Source+Code+Pro:700&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: Montserrat;
+    src:url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+/* .text {
+    text-align: center;
+    font-style: italic;
+    text-indent: 2rem;
+    font-size: 1.5rem;
+} */
+
+/* .skills {
+    list-style: none;
+    list-style-image: url(../img2/arrow2.png);
+} */
+
+li {
+    font-family: Montserrat, Arial, sans-serif;
+    color:black; 
+    text-align: left; 
+    font-style: italic;
+    margin: 20px 0;
+    padding: 20px 0 0 20px;
+}
+
+.size {
+    /*font-family: 'Lobster', cursive; font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(7, 18, 173);
+    text-align: center;
+}
+
+    /* СКРУГЛЕНИЕ!!! border-radius: 50px 0; */
+    /* РАМКА!!! outline: 1px solid red;*/
+    /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; 
+        ПОЗИЦИЯ!!! background-position: top center, bottom center;
+        КАРТИНКА НЕ ПОВТОРЯЮЩ!!! background: url(../img4/cv.jpeg) no-repeat;
+        Селектор Псевдокласса!!! .product-item:first-child
+        Ширина!!  width: 50%;
+        Высота!!  height: auto;
+     */
+
+    /*могут быть и такие значения
+    Внешние Отступы!! margin: 10px 0 15px;
+    Внутренние отступы!!! padding: 10px 15px; 
+    line-height: 1;
+    border: 1px solid #000;
+    */
+
+body {
+    background-image: url(../img3/fon2.png);
+    margin: 0;
+    /* тоже сво-ва по работе с картинкой!!!!! 
+    background-repeat: no-repeat; */
+}
+
+.name {
+    background-color: rgb(238, 174, 11);
+    color: #fff;
+    margin: 10px 0 5px; 
+    border: 1px solid #000;
+    font-size: 1.7rem;
+    border-radius: 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.856) 0 0 20px 10px;
+}
+
+.vacancy {
+    background-color: greenyellow;
+    color: #fff;
+    margin: 20px 0 10px; 
+    border: 1px solid rgb(248, 246, 246);
+    border-radius: 11rem 15rem;
+}
+
+.mountains { 
+    background: url(../img4/mountains.jpg) no-repeat;
+    background-color: rgb(104, 238, 104);
+    background-position: 20px 0;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 0 40px;
+    margin: 50px 20px 50px;
+    height: 40rem;
+}
+
+.foto {
+    padding: 5px 0;
+    margin: 20px 20rem;
+    background-color: pink;
+    color: #fff;
+    border-radius: 5rem 1000rem;
+    text-align: center;
+}
+
+.work {
+    padding: 5px 0;
+    margin: 20px 20rem;
+    background-color: rgb(147, 191, 248);
+    color: #fff;
+    border-radius: 1000rem 5rem;
+    color: rgb(7, 68, 65); 
+    text-align: center; 
+    font-style: italic; 
+    border-bottom: 1px solid #000;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: left;
+    font-style: italic;
+    padding: 10px 10px;
+    margin: 20px 10px;
+    color: #000;
+}
+
