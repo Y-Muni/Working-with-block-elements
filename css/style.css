@@ -36,9 +36,9 @@ h3 {
 
 li {
     font-family: Montserrat, Arial, sans-serif;
-    color:black; 
-    text-align:left; 
-    font-style:italic;
+    color: black; 
+    text-align: left; 
+    font-style: italic;
     margin: 20px 0;
     padding: 30px 0px 0 20px;
 }
@@ -69,12 +69,12 @@ li {
     box-shadow: rgba(0, 0, 0, 0.856) 0 0 20px 10px;
 }
 
-li {
+/* li {
     font-family: Montserrat, Arial, sans-serif;
     color: rgb(4, 78, 4); 
     text-align: left; 
     font-style: italic;
-}
+} */
 
 .mountains { 
     background: url(../img/mountains.jpg) no-repeat;
